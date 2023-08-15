@@ -8,7 +8,6 @@ from dataclasses import dataclass
 class Result:
     result: int
 
-
 app = Flask(__name__)
 
 @app.route("/calculator/greeting", methods=['GET'])
