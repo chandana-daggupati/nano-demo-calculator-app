@@ -1,5 +1,3 @@
-
-@@ -1,4 +1,10 @@
 from flask import Flask
 from flask import Flask, request, jsonify
 from dataclasses import dataclass
@@ -9,6 +7,7 @@ class Result:
     result: int
 
 app = Flask(__name__)
+
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
